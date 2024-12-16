@@ -14,12 +14,12 @@ function Footer() {
   const socials = [
     { 
       name: 'GitHub',
-      url: '#github',
+      url: 'IhantsaFana',
       icon: '...' // SVG path for GitHub icon
     },
     { 
       name: 'LinkedIn',
-      url: '#linkedin',
+      url: 'in/ihantsa-rakotondranaivo4693112b9',
       icon: '...' // SVG path for LinkedIn icon
     },
     // ... other social media icons
@@ -41,7 +41,7 @@ function Footer() {
           {/* Brand info and description */}
           <div className="space-y-4">
             <div className="text-2xl font-bold tracking-tight text-[#6DBE45]">
-              Abraham.dev
+              OEKA
             </div>
             <p className="text-sm leading-relaxed text-white/70">
               Crafting digital experiences with passion and precision. 
@@ -71,12 +71,12 @@ function Footer() {
             <h3 className="mb-6 text-lg font-semibold text-white">Contact</h3>
             <ul className="space-y-3 text-white/70">
               <li className="hover:text-[#6DBE45] transition-colors">
-                <a href="mailto:demo@abraham.dev">demo@abraham.dev</a>
+                <a href="mailto:ihantsarakotondranaivo@gmail.com">ihantsarakotondranaivo@gmail.com</a>
               </li>
               <li className="hover:text-[#6DBE45] transition-colors">
-                <a href="tel:+94777777777">+94 77 777 7777</a>
+                <a href="tel:+261347822666">+261 38 47 025 32</a>
               </li>
-              <li>aaaaa, aaaaa</li>
+              <li>Antananarivo, Madagascar</li>
             </ul>
           </div>
 
@@ -104,7 +104,7 @@ function Footer() {
 
         {/* Bottom copyright text */}
         <div className="pt-8 mt-12 text-sm text-center border-t border-white/10 text-white/50">
-          © {new Date().getFullYear()} Abraham.dev. All rights reserved.
+          © {new Date().getFullYear()} OEKA. All rights reserved.
         </div>
       </div>
     </footer>
