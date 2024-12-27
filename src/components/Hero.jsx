@@ -21,6 +21,15 @@ function Hero() {
     { number: '2', label: 'Years of Experience', icon: '⚡' },
   ]
 
+  // Scroll to section and close mobile menu
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+      setIsMenuOpen(false)
+    }
+  }
+
   // Handle mouse movement for background effect
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -194,10 +203,10 @@ function Hero() {
             <motion.div className="flex gap-4">
               {/* Let's Connect button with icon */}
               <motion.button
-                className="group relative bg-[#6DBE45] text-white font-bold py-3 sm:py-4 px-8 sm:px-10 
-      rounded-full overflow-hidden w-full sm:w-auto"
+                className="group relative bg-[#6DBE45] text-white font-bold py-3 sm:py-4 px-8 sm:px-10 rounded-full overflow-hidden w-full sm:w-auto"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => scrollToSection('contact')}
               >
                 <span className="relative z-10 flex items-center gap-2">
                   <span>Let&apos;s Connect</span>
