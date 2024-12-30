@@ -18,7 +18,7 @@ function Hero() {
   const stats = [
     { number: '+100', label: 'Completed Projects', icon: '🎯' },
     { number: '98%', label: 'Client Rating', icon: '⭐' },
-    { number: '2', label: 'Years of Experience', icon: '⚡' },
+    { number: '3', label: 'Years of Experience', icon: '⚡' },
   ]
 
   // Scroll to section and close mobile menu
