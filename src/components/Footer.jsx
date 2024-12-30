@@ -87,7 +87,7 @@ function Footer() {
               {socials.map(social => (
                 <a
                   key={social.name}
-                  href={social.url}
+                  href={`https://${social.name.toLowerCase()}.com/${social.url}`}
                   className="text-white/70 hover:text-[#6DBE45] transition-colors"
                   aria-label={social.name}
                   target="_blank"
