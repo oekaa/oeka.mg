@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { useInView } from 'react-intersection-observer'
-import { FaArrowRight, FaDownload } from 'react-icons/fa'
+import { FaArrowRight, FaDownload, FaTrophy, FaStar, FaBolt } from 'react-icons/fa'
 
 function Hero() {
   // Track mouse position for background effect
@@ -16,10 +16,14 @@ function Hero() {
 
   // Stats shown in the hero section
   const stats = [
-    { number: '+100', label: 'Completed Projects', icon: '🎯' },
-    { number: '98%', label: 'Client Rating', icon: '⭐' },
-    { number: '3', label: 'Years of Experience', icon: '⚡' },
-  ]
+    { number: '+100', label: 'Completed Projects', icon: <FaTrophy /> },
+    { number: '98%', label: 'Client Rating', icon: <FaStar /> },
+    { 
+      number: new Date().getFullYear() - 2022,
+      label: 'Years of Experience', 
+      icon: <FaBolt /> 
+    },
+  ];
 
   // Scroll to section and close mobile menu
   const scrollToSection = (sectionId) => {
