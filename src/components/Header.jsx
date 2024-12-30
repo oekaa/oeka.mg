@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 
 function Header() {
   // Control mobile menu open/close state
@@ -102,13 +103,18 @@ function SocialIcons({ mobile }) {
   const socials = [
     {
       name: 'GitHub',
-      icon: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
-      oeka: 'IhantsaFana'
+      icon: 'FaGithub',
+      url: 'IhantsaFana'
     },
     {
       name: 'LinkedIn',
-      icon: 'https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg',
-      oeka: 'in/ihantsa-rakotondranaivo4693112b9'
+      icon: 'FaLinkedin ',
+      url: 'in/ihantsa-rakotondranaivo4693112b9'
+    },
+    {
+      name: 'Facebook',
+      icon: 'FaFacebook',
+      url: 'ihantsarakotondranaivo'
     }
   ]
 
@@ -118,15 +124,13 @@ function SocialIcons({ mobile }) {
       {socials.map(social => (
         <a
           key={social.name}
-          href={`https://${social.name.toLowerCase()}.com/${social.oeka}`}
+          href={`https://${social.name.toLowerCase()}.com/${social.url}`}
           className="text-[#204E27] hover:text-[#6DBE45] transition-colors"
           aria-label={social.name}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d={social.icon} />
-          </svg>
+          <social.icon className="w-6 h-6" />
         </a>
       ))}
     </div>
