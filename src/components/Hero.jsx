@@ -16,14 +16,10 @@ function Hero() {
 
   // Stats shown in the hero section
   const stats = [
-    { number: '+100', label: 'Completed Projects', icon: <FaTrophy /> },
-    { number: '98%', label: 'Client Rating', icon: <FaStar /> },
-    { 
-      number: new Date().getFullYear() - 2022,
-      label: 'Years of Experience', 
-      icon: <FaBolt /> 
-    },
-  ];
+    { number: '+100', label: 'Completed Projects', icon: '🎯' },
+    { number: '98%', label: 'Client Rating', icon: '⭐' },
+    { number: new Date().getFullYear() - 2020 , label: 'Years of Experience', icon: '⚡' },
+  ]
 
   // Scroll to section and close mobile menu
   const scrollToSection = (sectionId) => {
