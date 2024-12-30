@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { useInView } from 'react-intersection-observer'
-import { FaArrowRight, FaDownload, FaTrophy, FaStar, FaBolt } from 'react-icons/fa'
+import { FaArrowRight, FaDownload } from 'react-icons/fa'
 
 function Hero() {
   // Track mouse position for background effect
