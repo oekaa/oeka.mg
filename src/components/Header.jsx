@@ -103,17 +103,17 @@ function SocialIcons({ mobile }) {
   const socials = [
     {
       name: 'GitHub',
-      icon: 'FaGithub',
+      icon: FaGithub,
       url: 'IhantsaFana'
     },
     {
       name: 'LinkedIn',
-      icon: 'FaLinkedin ',
+      icon: FaLinkedin,
       url: 'in/ihantsa-rakotondranaivo4693112b9'
     },
     {
       name: 'Facebook',
-      icon: 'FaFacebook',
+      icon: FaFacebook,
       url: 'ihantsarakotondranaivo'
     }
   ]
@@ -132,6 +132,7 @@ function SocialIcons({ mobile }) {
         >
           <social.icon className="w-6 h-6" />
         </a>
+
       ))}
     </div>
   )
