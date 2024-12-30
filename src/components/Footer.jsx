@@ -15,12 +15,12 @@ function Footer() {
     { 
       name: 'GitHub',
       url: 'IhantsaFana',
-      icon: '...' // SVG path for GitHub icon
+      icon: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png' // SVG path for GitHub icon
     },
     { 
       name: 'LinkedIn',
       url: 'in/ihantsa-rakotondranaivo4693112b9',
-      icon: '...' // SVG path for LinkedIn icon
+      icon: 'https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg' // SVG path for LinkedIn icon
     },
     // ... other social media icons
   ]
