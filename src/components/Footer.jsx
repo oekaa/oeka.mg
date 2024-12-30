@@ -1,64 +1,42 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'; // Import React-icons
 
 function Footer() {
-  // List of links for quick navigation
   const quickLinks = [
     { name: 'Home', id: 'hero' },
     { name: 'About', id: 'about' },
     { name: 'Services', id: 'services' },
     { name: 'Projects', id: 'projects' },
-    { name: 'Contact', id: 'contact' }
-  ]
+    { name: 'Contact', id: 'contact' },
+  ];
 
-  // Social media links and icons
   const socials = [
-    { 
-      name: 'GitHub',
-      url: 'IhantsaFana',
-      icon: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png' // SVG path for GitHub icon
-    },
-    { 
-      name: 'LinkedIn',
-      url: 'in/ihantsa-rakotondranaivo4693112b9',
-      icon: 'https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg' // SVG path for LinkedIn icon
-    },
-    { 
-      name: 'Facebook',
-      url: 'ihantsarakotondranaivo',
-      icon: 'https://scontent-fra3-2.xx.fbcdn.net/v/t39.8562-6/422083590_1312812522712666_5569536549360094726_n.png?_nc_cat=111&ccb=1-7&_nc_sid=f537c7&_nc_ohc=ttJdOuTEykQQ7kNvgE0MkJ-&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&edm=AJDissoEAAAA&_nc_gid=ADvztDShKrfkzfCOneY8FSK&oh=00_AYDhOL69kpUDKuRWJoRXVqe36hbNu-VFPlnDc-zGBIktHw&oe=677847FC' // SVG path for GitHub icon
-    },
-    // ... other social media icons
-  ]
+    { name: 'GitHub', url: 'IhantsaFana', icon: FaGithub },
+    { name: 'LinkedIn', url: 'in/ihantsa-rakotondranaivo4693112b9', icon: FaLinkedin },
+    { name: 'Facebook', url: 'ihantsarakotondranaivo', icon: FaFacebook },
+  ];
 
-  // Smooth scroll to different sections
   const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId)
+    const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-  }
+  };
 
   return (
     <footer className="bg-[#0A0A0A] text-white py-16">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        {/* Main footer content grid */}
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
-          {/* Brand info and description */}
           <div className="space-y-4">
-            <div className="text-2xl font-bold tracking-tight text-[#6DBE45]">
-              OEKA
-            </div>
+            <div className="text-2xl font-bold tracking-tight text-[#6DBE45]">OEKA</div>
             <p className="text-sm leading-relaxed text-white/70">
-              Crafting digital experiences with passion and precision. 
-              Let's build something amazing together.
+              Crafting digital experiences with passion and precision. Let's build something amazing together.
             </p>
           </div>
-
-          {/* Navigation links */}
           <div>
             <h3 className="mb-6 text-lg font-semibold text-white">Quick Links</h3>
             <ul className="space-y-3">
-              {quickLinks.map(link => (
+              {quickLinks.map((link) => (
                 <li key={link.name}>
                   <button
                     onClick={() => scrollToSection(link.id)}
@@ -70,8 +48,6 @@ function Footer() {
               ))}
             </ul>
           </div>
-
-          {/* Contact details */}
           <div>
             <h3 className="mb-6 text-lg font-semibold text-white">Contact</h3>
             <ul className="space-y-3 text-white/70">
@@ -84,12 +60,10 @@ function Footer() {
               <li>Antananarivo, Madagascar</li>
             </ul>
           </div>
-
-          {/* Social media icons */}
           <div>
             <h3 className="mb-6 text-lg font-semibold text-white">Follow Us</h3>
             <div className="flex gap-5">
-              {socials.map(social => (
+              {socials.map((social) => (
                 <a
                   key={social.name}
                   href={`https://${social.name.toLowerCase()}.com/${social.url}`}
@@ -98,22 +72,18 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d={social.icon} />
-                  </svg>
+                  <social.icon className="w-6 h-6" />
                 </a>
               ))}
             </div>
           </div>
         </div>
-
-        {/* Bottom copyright text */}
         <div className="pt-8 mt-12 text-sm text-center border-t border-white/10 text-white/50">
           © {new Date().getFullYear()} OEKA. All rights reserved.
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer 
+export default Footer;
