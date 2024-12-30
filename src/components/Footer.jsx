@@ -22,6 +22,11 @@ function Footer() {
       url: 'in/ihantsa-rakotondranaivo4693112b9',
       icon: 'https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg' // SVG path for LinkedIn icon
     },
+    { 
+      name: 'Facebook',
+      url: 'ihantsarakotondranaivo',
+      icon: 'https://scontent-fra3-2.xx.fbcdn.net/v/t39.8562-6/422083590_1312812522712666_5569536549360094726_n.png?_nc_cat=111&ccb=1-7&_nc_sid=f537c7&_nc_ohc=ttJdOuTEykQQ7kNvgE0MkJ-&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&edm=AJDissoEAAAA&_nc_gid=ADvztDShKrfkzfCOneY8FSK&oh=00_AYDhOL69kpUDKuRWJoRXVqe36hbNu-VFPlnDc-zGBIktHw&oe=677847FC' // SVG path for GitHub icon
+    },
     // ... other social media icons
   ]
 
