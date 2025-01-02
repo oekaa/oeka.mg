@@ -1,0 +1,13 @@
+/* TEAM */
+Developer: Ihantsa RAKOTONDRANAIVO
+Website: https://oeka.vercel.app/
+Twitter: @ihantsa
+Facebook: https://facebook.com/ihantsarakotondranaivo
+Github: https://github.com/IhantsaFana
+
+/* THANKS */
+Framework: React, TailwindCSS, Vercel
+Icons: Font Awesome
+
+/* SITE */
+Last update: 2024-10-12
