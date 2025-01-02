@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /wp-admin/
+Allow: /
+
+# Spécification du chemin du sitemap pour les robots
+Sitemap: https://oeka.vercel.app/sitemap.xml
