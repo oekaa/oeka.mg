@@ -130,25 +130,45 @@ function Projects() {
       }
     },
     {
-    "id": 5,
-    "title": "High Nova",
-    "category": ["design", "web"],
-    "description": "A personalized online portfolio to showcase my web development, design skills, and past projects with a sleek, responsive design.",
-    "image": "highnova.png",
-    "url": "https://highnova.vercel.app/",
-    "tags": ["Next.js", "Tailwind CSS", "Figma", "UI/UX Design"],
-    "testimonial": {
-      "text": "This portfolio reflects my journey and skills, making it easy for clients to explore my work in an interactive and visually appealing way.",
-      "author": "Ihantsa RAKOTONDRANAIVO",
-      "role": "Designer & Developer",
-      "avatar": "https://source.unsplash.com/random/100x100/?man"
+      "id": 5,
+      "title": "High Nova",
+      "category": "web",
+      "description": "A personalized online portfolio to showcase my web development, design skills, and past projects with a sleek, responsive design.",
+      "image": "highnova.png",
+      "url": "https://highnova.vercel.app/",
+      "tags": ["Next.js", "Tailwind CSS", "Figma", "UI/UX Design"],
+      "testimonial": {
+        "text": "This portfolio reflects my journey and skills, making it easy for clients to explore my work in an interactive and visually appealing way.",
+        "author": "Ihantsa RAKOTONDRANAIVO",
+        "role": "Designer & Developer",
+        "avatar": "https://source.unsplash.com/random/100x100/?man"
+      },
+      "stats": {
+        "views": "1K+",
+        "projects": "10+",
+        "feedback": "Positive"
+      }
     },
-    "stats": {
-      "views": "1K+",
-      "projects": "10+",
-      "feedback": "Positive"
+    {
+      "id": 6,
+      "title": "High Nova",
+      "category": "design",
+      "description": "A personalized online portfolio to showcase my web development, design skills, and past projects with a sleek, responsive design.",
+      "image": "highnova.png",
+      "url": "https://www.figma.com/proto/D0W3LkbvcHDyrVgTCnJwlU/HighNova?node-id=1-2&p=f&t=fC9RshqxVY0jYw8W-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+      "tags": ["Next.js", "Tailwind CSS", "Figma", "UI/UX Design"],
+      "testimonial": {
+        "text": "This portfolio reflects my journey and skills, making it easy for clients to explore my work in an interactive and visually appealing way.",
+        "author": "Ihantsa RAKOTONDRANAIVO",
+        "role": "Designer & Developer",
+        "avatar": "https://source.unsplash.com/random/100x100/?man"
+      },
+      "stats": {
+        "views": "1K+",
+        "projects": "10+",
+        "feedback": "Positive"
+      }
     }
-  }
   ]
 
   // Filter projects based on selected category
