@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://oeka.vercel.app/</title>
+  <link>https://oeka.vercel.app/</link>
+
+<item>
+     <link>https://oeka.vercel.app/</link>
+     <title>OEKA Mikofo | Ihantsa RAKOTONDRANAIVO</title>
+     <description>Welcome to my Portfolio : OEKA Mikofo, the personal portfolio of Ihantsa RAKOTONDRANAIVO, showcasing web development, mobile/desktop applications, and in-person training services.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
