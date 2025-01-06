@@ -31,13 +31,13 @@ function About() {
   const stats = [
     { number: '50+', label: 'Projects Completed', icon: '✅' },
     { number: '95%', label: 'Client Satisfaction', icon: '😊' },
-    { number: new Date().getFullYear() - 2023, label: 'Years of Experience', icon: '⏳' },
+    { number: new Date().getFullYear() - 2022, label: 'Years of Experience', icon: '⏳' },
   ]
 
   // Career timeline data
   const timeline = [
     {
-      year: '2023',
+      year: '2022',
       title: 'Started IT Journey',
       description: 'Began learning about networks and systems administration',
       icon: '📡'
