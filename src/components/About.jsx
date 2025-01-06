@@ -203,9 +203,10 @@ function About() {
                     }
                   }}
                 >
-                  <source src="/111.mp4" type="video/mp4" />
+                  <source src="/111.webm" type="video/webm" />
                   <p>Your browser doesn&apos;t support HTML5 video.</p>
                 </motion.video>
+
 
                 {/* Video Progress Bar - Moved up and made interactive */}
                 <div className="absolute bottom-16 left-0 right-0 z-30 px-4 opacity-0 group-hover:opacity-100 
