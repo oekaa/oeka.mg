@@ -96,7 +96,7 @@ function Projects() {
       description: "A cross-platform mobile app designed to help users practice and improve their English speaking skills using AI-driven conversations.",
       image: "elearningplatform.svg",
       url: "mspeak.edu",
-      tags: ["React Native", "Firebase", "AI", "Voice Recognition"],
+      tags: ["React Native", "MySQL"],
       testimonial: {
         text: "M'speak has made language learning fun and interactive, with real-time feedback on pronunciation and fluency.",
         author: "Ihantsa RAKOTONDRANAIVO",
@@ -116,7 +116,7 @@ function Projects() {
       description: "A personalized online portfolio to showcase my web development, design skills, and past projects with a sleek, responsive design.",
       image: "portfolio.png",
       url: "oeka.mg",
-      tags: ["Next.js", "Tailwind CSS", "Figma", "UI/UX Design"],
+      tags: ["Figma", "UI/UX Design"],
       testimonial: {
         text: "This portfolio reflects my journey and skills, making it easy for clients to explore my work in an interactive and visually appealing way.",
         author: "Ihantsa RAKOTONDRANAIVO",
