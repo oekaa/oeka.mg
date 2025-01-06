@@ -61,7 +61,7 @@ function Projects() {
       description: "A platform for selling audio books and PDFs, targeting Malagasy readers.",
       image: "elibriaries.svg",
       url: "elibrairies",
-      tags: ["PHP", "MySQL", "Symfony", "Facebook API"],
+      tags: ["PHP", "MySQL", "Symfony"],
       testimonial: {
         text: "E-Librairies has successfully brought a wide range of books to our local community, making learning more accessible.",
         author: "Ihantsa RAKOTONDRANAIVO",
@@ -76,7 +76,7 @@ function Projects() {
     },
     {
       id: 2,
-      title: "E-Learning Platform",
+      title: "M'Speak",
       category: "web",
       description: "An online education platform focusing on teaching English, featuring personalized learning preferences and progress tracking.",
       image: "elearningplatform.svg",
@@ -91,21 +91,6 @@ function Projects() {
     },
     {
       id: 3,
-      title: "Tech Blog",
-      category: "web",
-      description: "A blog platform for sharing tech articles, tutorials, and news about the latest developments in web development and programming.",
-      image: "techblog.svg",
-      url: "techBlog",
-      tags: ["Next.js", "Prisma", "PostgreSQL", "Tailwind CSS"],
-      testimonial: {
-        text: "The blog has become a go-to resource for developers, helping them stay up to date with the latest trends.",
-        author: "Ihantsa RAKOTONDRANAIVO",
-        role: "Founder & Developer",
-        avatar: "https://source.unsplash.com/random/100x100/?man"
-      }
-    },
-    {
-      id: 4,
       title: "M'speak Mobile",
       category: "mobile",
       description: "A cross-platform mobile app designed to help users practice and improve their English speaking skills using AI-driven conversations.",
@@ -125,7 +110,7 @@ function Projects() {
       }
     },
     {
-      id: 5,
+      id: 4,
       title: "Portfolio",
       category: "design",
       description: "A personalized online portfolio to showcase my web development, design skills, and past projects with a sleek, responsive design.",
@@ -143,7 +128,27 @@ function Projects() {
         projects: "10+",
         feedback: "Positive"
       }
+    },
+    {
+    "id": 5,
+    "title": "High Nova",
+    "category": ["design", "web"],
+    "description": "A personalized online portfolio to showcase my web development, design skills, and past projects with a sleek, responsive design.",
+    "image": "highnova.png",
+    "url": "https://highnova.vercel.app/",
+    "tags": ["Next.js", "Tailwind CSS", "Figma", "UI/UX Design"],
+    "testimonial": {
+      "text": "This portfolio reflects my journey and skills, making it easy for clients to explore my work in an interactive and visually appealing way.",
+      "author": "Ihantsa RAKOTONDRANAIVO",
+      "role": "Designer & Developer",
+      "avatar": "https://source.unsplash.com/random/100x100/?man"
+    },
+    "stats": {
+      "views": "1K+",
+      "projects": "10+",
+      "feedback": "Positive"
     }
+  }
   ]
 
   // Filter projects based on selected category
