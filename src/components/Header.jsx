@@ -114,7 +114,7 @@ function SocialIcons({ mobile }) {
     {
       name: 'Facebook',
       icon: FaFacebook,
-      url: 'ihantsarakotondranaivo'
+      url: 'ihantsa.ofisialy'
     }
   ]
 
