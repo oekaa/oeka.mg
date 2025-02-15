@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'; // Import React-icons
+import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 
 function Footer() {
   const quickLinks = [
@@ -13,7 +13,7 @@ function Footer() {
   const socials = [
     { name: 'GitHub', url: 'IhantsaFana', icon: FaGithub },
     { name: 'LinkedIn', url: 'in/ihantsa-rakotondranaivo4693112b9', icon: FaLinkedin },
-    { name: 'Facebook', url: 'ihantsarakotondranaivo', icon: FaFacebook },
+    { name: 'Facebook', url: 'ihantsa.ofisialy', icon: FaFacebook },
   ];
 
   const scrollToSection = (sectionId) => {
