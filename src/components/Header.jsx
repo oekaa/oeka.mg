@@ -109,12 +109,12 @@ function SocialIcons({ mobile }) {
     {
       name: 'LinkedIn',
       icon: FaLinkedin,
-      url: 'in/ihantsa-rakotondranaivo4693112b9'
+      url: 'in/ihantsa'
     },
     {
       name: 'Facebook',
       icon: FaFacebook,
-      url: 'ihantsa.ofisialy'
+      url: 'ihants'
     }
   ]
 
