@@ -12,8 +12,8 @@ function Footer() {
 
   const socials = [
     { name: 'GitHub', url: 'IhantsaFana', icon: FaGithub },
-    { name: 'LinkedIn', url: 'in/ihantsa-rakotondranaivo4693112b9', icon: FaLinkedin },
-    { name: 'Facebook', url: 'ihantsa.ofisialy', icon: FaFacebook },
+    { name: 'LinkedIn', url: 'in/ihantsa', icon: FaLinkedin },
+    { name: 'Facebook', url: 'ihants', icon: FaFacebook },
   ];
 
   const scrollToSection = (sectionId) => {
